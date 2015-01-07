@@ -16,7 +16,7 @@ Compile and usage
 Compile is simple:
 
 ```
-git build sensu-mysql-metrics.go
+go build sensu-mysql-metrics.go
 ```
 
 Usage is even simpler:
