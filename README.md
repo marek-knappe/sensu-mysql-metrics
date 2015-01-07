@@ -35,7 +35,7 @@ Example sensu file:
   "checks": {
     "mysql_graphite_metrics": {
       "type": "metric",
-      "command": "sensu-mysql-metrics -hostname=':::mysql.host:::'  -username=':::mysql.user:::' -password=':::mysql.password:::'",
+      "command": "sensu-mysql-metrics -host=':::mysql.host:::' -port=':::mysql.port:::' -username=':::mysql.user:::' -password=':::mysql.password:::'",
       "interval": 60,
       "subscribers": ["mysql"],
       "handlers": ["relay"]
