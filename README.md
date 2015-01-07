@@ -1,13 +1,15 @@
 Sensu Mysql Metrics
 ===================
-Golang sensu plugion to get all metrics from mysql 'show global status'
+Golang sensu/graphite plugin to get all metrics from mysql 'show global status'
 
 
 Why new plugin
 ===================
-I'm sick of ruby plugins that require a lot of dependiences, so i made my script in goLang to get all variables from mysql show global status to sensu (and then to graphite)
-Anyway, it's my first Go program, so it's not the nicest - but it works
+I'm sick of ruby plugins that require a lot of dependiences, so I made my script in goLang to get all variables from mysql show global status to sensu (and then to graphite).
 
+You are high-school "developer" that doesn't know what is golang
+=======================================================
+Yep, It's my first Go program, so it's not the nicest - but it works
 
 Compile and usage
 ===================
